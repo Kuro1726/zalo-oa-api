@@ -1,4 +1,4 @@
-export const store = {
+const store = {
   channels: {
     zalo: {
       mode: "mock",  // 'mock' -> chưa có token; có token thì set 'live'
@@ -8,3 +8,5 @@ export const store = {
     }
   }
 }
+
+module.exports = store
